@@ -1,0 +1,26 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+}
+
+.tableRow,
+.tableData {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.tableData {
+  padding: 12px;
+}
+
+.tableRow {
+  flex-direction: row;
+}
+
+.tableColumn {
+  flex: 1;
+  flex-direction: column;
+  background-color: rgba(#000, 0.3);
+}
